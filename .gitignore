@@ -1,0 +1,5 @@
+# Files created by latexmk
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
