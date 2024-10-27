@@ -1,6 +1,6 @@
-# Velura.nvim
+# velura.nvim
 
-**Velura.nvim** is a dark [Neovim](https://neovim.io/) color scheme written in Lua, featuring customizable tints and bold accents. This theme provides a consistent look with high contrast for good readability.
+**velura.nvim** is a dark [Neovim](https://neovim.io/) color scheme written in Lua, featuring customizable tints and bold accents. This theme provides a consistent look with high contrast for good readability.
 
 
 ## Features
@@ -12,7 +12,7 @@
 
 ## Palette
 
-Velura.nvim is built around six constant accent colors, each with corresponding fore- and background colors:
+velura.nvim is built around six constant accent colors, each with corresponding fore- and background colors:
 <p align = "center">
     <img src = "palette/accents.svg" alt = "Accent colors" width = "55%"/>
 </p>
@@ -40,7 +40,7 @@ vim.cmd.colorscheme( "velura" )
 
 ## Configuration
 
-Velura.nvim allows you to customize the color tint for both background and foreground, so you can set the overall aesthetic.
+velura.nvim allows you to customize the color tint for both background and foreground, so you can set the overall aesthetic.
 
 
 ### Available Options
@@ -60,7 +60,7 @@ require( "velura" ).setup( { } )
 
 ## Usage with [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 
-Velura.nvim includes a matching theme for lualine.nvim. 
+velura.nvim includes a matching theme for lualine.nvim. 
 Add this to your Lualine configuration:
 ```lua
 require( "lualine" ).setup( {
@@ -71,7 +71,7 @@ require( "lualine" ).setup( {
 
 ## Plugin Support
 
-Velura.nvim provides styling for the following plugins:
+velura.nvim provides styling for the following plugins:
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
@@ -113,7 +113,7 @@ Here are a few sample screenshots of the different tints available:
 
 ## Ports
 
-Ports of Velura.nvim are located in the ports directory, with current support for:
+Ports of velura.nvim are located in the ports directory, with current support for:
 - [iTerm2](https://github.com/gnachman/iTerm2)
 
 *[Ghostty](https://mitchellh.com/ghostty) will be added as soon as I get access to it.*
