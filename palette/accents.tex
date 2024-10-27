@@ -1,4 +1,4 @@
-\documentclass[margin = 2mm]{standalone}
+\documentclass[margin = 0mm]{standalone}
 
 \usepackage{cascadia-code}
 \usepackage[T1]{fontenc}
@@ -21,12 +21,7 @@
 \definecolor{foreground}{HTML}{E9DBDF}
 
 \begin{document}
-	\pagecolor{background}%
-	\color{foreground}%
 	\begin{tikzpicture}%
-		\node[right] at (0, 0.5) {\textbf{velura.nvim}};
-
-		\node[above right] at (0, -0.5) {colors};
 		% reds
 		\colorNode{C5233F}{0.0}{-0.50}
 		\colorNode{DC2C48}{0.0}{-1.25}
@@ -56,17 +51,5 @@
 		\colorNode{58AA9A}{7.5}{-0.50}
 		\colorNode{66B8A7}{7.5}{-1.25}
 		\colorNode{80C9BC}{7.5}{-2.00}
-
-
-		\node[above right] at (0, -4.0) {fore- \& background};
-		\colorNode{D4BCC0}{0.0}{-4.0}
-		\colorNode{DDC8CC}{1.5}{-4.0}
-		\colorNode{E9DBDF}{3.0}{-4.0}
-		\colorNode{F3E8EB}{4.5}{-4.0}
-
-		\colorNodeInv{1A1416}{0.0}{-4.75}
-		\colorNodeInv{2B1D20}{1.5}{-4.75}
-		\colorNodeInv{3A272B}{3.0}{-4.75}
-		\colorNodeInv{483034}{4.5}{-4.75}
 	\end{tikzpicture}%
 \end{document}
