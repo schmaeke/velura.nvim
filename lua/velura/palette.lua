@@ -70,7 +70,7 @@ M.purple = {
 }
 
 -- CYAN TINT
-M.accents = {
+M.cyan = {
 	bg0 = "#141A1A",
 	bg1 = "#1D2B2B",
 	bg2 = "#273A3A",
