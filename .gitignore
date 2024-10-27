@@ -1,3 +1,6 @@
+# Files created by macOS finder
+.DS_Store
+
 # Files created by latexmk
 *.aux
 *.fdb_latexmk
