@@ -54,9 +54,7 @@ Velura.nvim allows you to customize the color tint for both background and foreg
     - "cyan"
 
 ```lua
-require( "velura" ).setup({
-    tint = "purple"  -- Select your preferred tint
-})
+require( "velura" ).setup( { } )
 ```
 
 
