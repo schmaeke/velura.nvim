@@ -5,12 +5,16 @@ local palette = require( "velura.palette" )
 
 local M = { }
 
-function M.setup( )
-
+function M.setup( options )
+	options = options or { }
+	M.tint = options.tint or "red" -- "red" is the default tint
 end
 
 function M.apply_theme( )
-	c = palette.default
+
+	none = palette.none
+	base = palette[ M.tint ]
+	accents = palette.accents
 
 	-- clear highlight and syntex
 	vim.api.nvim_command( "hi clear" )

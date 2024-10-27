@@ -1,7 +1,7 @@
 gitsigns = {
-	GitSignsAdd    = { fg = c.green0, bg = c.bg0 },
-	GitSignsChange = { fg = c.yellow0, bg = c.bg0 },
-	GitSignsDelete = { fg = c.red0, bg = c.bg0 },
+	GitSignsAdd    = { fg = accents.green0, bg = base.bg0 },
+	GitSignsChange = { fg = accents.yellow0, bg = base.bg0 },
+	GitSignsDelete = { fg = accents.red0, bg = base.bg0 },
 }
 
 return gitsigns

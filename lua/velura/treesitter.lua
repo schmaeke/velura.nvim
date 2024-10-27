@@ -1,7 +1,7 @@
 -- treesitter specific colors
 
 treesitter = {
-	[ "@variable" ] = { fg = c.fg2 },
+	[ "@variable" ] = { fg = base.fg2 },
 }
 
 return treesitter
