@@ -28,17 +28,19 @@ function M.apply_theme( )
 	vim.g.colors_name = "velura"
 
 	-- load highlights
-	local hightlights = require( "velura.highlights" )
-	local treesitter = require( "velura.treesitter" )
-	local telescope = require( "velura.telescope" )
 	local gitsigns = require( "velura.gitsigns" )
+	local hightlights = require( "velura.highlights" )
+	local noice = require( "velura.noice" )
+	local telescope = require( "velura.telescope" )
+	local treesitter = require( "velura.treesitter" )
 
 	-- create groups
 	local master_groups = {
-		highlights,
-		treesitter,
-		telescope,
 		gitsigns,
+		highlights,
+		noice,
+		telescope,
+		treesitter,
 	}
 
 	-- apply colors from groups
