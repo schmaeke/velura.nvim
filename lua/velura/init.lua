@@ -31,6 +31,7 @@ function M.apply_theme( )
 	local gitsigns = require( "velura.gitsigns" )
 	local hightlights = require( "velura.highlights" )
 	local noice = require( "velura.noice" )
+	local notify = require( "velura.notify" )
 	local telescope = require( "velura.telescope" )
 	local treesitter = require( "velura.treesitter" )
 
@@ -39,6 +40,7 @@ function M.apply_theme( )
 		gitsigns,
 		highlights,
 		noice,
+		notify,
 		telescope,
 		treesitter,
 	}
