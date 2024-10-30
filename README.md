@@ -1,4 +1,4 @@
-<h1 align = "center">velura.nvim</h1>
+<h1 align = "center">🏜 velura.nvim</h1>
 
 **velura.nvim** is a dark [Neovim](https://neovim.io/) color scheme written in Lua, featuring customizable tints and bold accents. This theme provides a consistent look with high contrast for good readability.
 
@@ -32,14 +32,14 @@
 *The font used in the screenshots is [Recursive Mono Linear](https://github.com/arrowtype/recursive).*
 
 
-## Features
+## 🧰 Features
 
 - **Customizable Tints**: Easily switch between red, green, yellow, blue, purple, and cyan tinted themes to suit your liking.
 - **Vivid Highlights**: Strong accent colors ensure clear visibility in various editor modes.
 - **Plugin Support**: (Partial) support for popular plugins like Treesitter, Telescope, and GitSigns.
 
 
-## Installation & Usage
+## 💿 Installation & Usage
 
 Add the following to your `lazy.nvim` configuration:
 ```lua
@@ -55,7 +55,7 @@ vim.cmd.colorscheme( "velura" )
 ```
 
 
-## Configuration
+## ⚙️ Configuration
 
 velura.nvim allows you to customize the color tint for both background and foreground, so you can set the overall aesthetic.
 
@@ -75,18 +75,7 @@ require( "velura" ).setup( { tint = "blue" } )
 ```
 
 
-## Usage with [Lualine](https://github.com/nvim-lualine/lualine.nvim)
-
-velura.nvim includes a matching theme for lualine.nvim. 
-Add this to your Lualine configuration:
-```lua
-require( "lualine" ).setup( {
-    options = { theme = "velura" }
-} )
-```
-
-
-## Plugin Support
+## 🧩 Plugin Support
 
 velura.nvim provides styling for the following plugins:
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
@@ -97,19 +86,219 @@ velura.nvim provides styling for the following plugins:
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 
 
-## Additional Ports
+### Usage with [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 
-Ports of velura.nvim are located in the ports directory, with current support for:
+velura.nvim includes a matching theme for lualine.nvim. 
+Add this to your Lualine configuration:
+```lua
+require( "lualine" ).setup( {
+    options = { theme = "velura" }
+} )
+```
+
+
+## 🔌 Additional Ports
+
+Ports of velura are located in the ports directory, with current support for:
 - [iTerm2](https://github.com/gnachman/iTerm2)
 
 *[Ghostty](https://mitchellh.com/ghostty) will be added as soon as I get access to it.*
 
 
-## Contributing
+## 🧬 Palette
+
+The theme is based on six accent colors
+<table>
+    <tr>
+        <td><b>Accents</b></td>
+        <td>Reds</td>
+        <td>Yellows</td>
+        <td>Greens</td>
+        <td>Cyans</td>
+        <td>Blues</td>
+        <td>Purples</td>
+    </tr>
+    <tr>
+        <td>Dark</td>
+        <td>#C5233F</td>
+        <td>#E2BB36</td>
+        <td>#29A245</td>
+        <td>#58AA9A</td>
+        <td>#2A8AD9</td>
+        <td>#9D3BD6</td>
+    </tr>
+    <tr>
+        <td>Base</td>
+        <td>#DC2C48</td>
+        <td>#E9C946</td>
+        <td>#33B34E</td>
+        <td>#66B8A7</td>
+        <td>#3C9BE1</td>
+        <td>#A948E0</td>
+    </tr>
+    <tr>
+        <td>Bright</td>
+        <td>#E94C66</td>
+        <td>#F3D870</td>
+        <td>#42CC60</td>
+        <td>#80C9BC</td>
+        <td>#5FB2F0</td>
+        <td>#BB6EF1</td>
+    </tr>
+</table>
+
+For each set of accent colors there is a set of base colors
+
+<table>
+    <tr>
+        <td><b>Red</b></td>
+        <td>Dark</td>
+        <td>Base</td>
+        <td>Bright</td>
+        <td>Brighter</td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>#1A1416</td>
+        <td>#2B1D20</td>
+        <td>#3A272B</td>
+        <td>#483034</td>
+    </tr>
+    <tr>
+        <td>Foreground</td>
+        <td>#D4BCC0</td>
+        <td>#DDC8CC</td>
+        <td>#E9DBDF</td>
+        <td>#F3E8EB</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><b>Yellow</b></td>
+        <td>Dark</td>
+        <td>Base</td>
+        <td>Bright</td>
+        <td>Brighter</td>
+    </tr>
+    <tr>
+        <td>Dark</td>
+        <td>#1A1A14</td>
+        <td>#2B2B1D</td>
+        <td>#3A3A27</td>
+        <td>#484834</td>
+    </tr>
+    <tr>
+        <td>Foreground</td>
+        <td>#D4D0BC</td>
+        <td>#DDDBC8</td>
+        <td>#E9E6DB</td>
+        <td>#F3F0E8</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><b>Green</b></td>
+        <td>Dark</td>
+        <td>Base</td>
+        <td>Bright</td>
+        <td>Brighter</td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>#141A16</td>
+        <td>#1D2B20</td>
+        <td>#273A2B</td>
+        <td>#304834</td>
+    </tr>
+    <tr>
+        <td>Foreground</td>
+        <td>#BCD4C0</td>
+        <td>#C8DDCC</td>
+        <td>#DBE9DF</td>
+        <td>#E8F3EB</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><b>Cyan</b></td>
+        <td>Dark</td>
+        <td>Base</td>
+        <td>Bright</td>
+        <td>Brighter</td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>#141A1A</td>
+        <td>#1D2B2B</td>
+        <td>#273A3A</td>
+        <td>#304848</td>
+    </tr>
+    <tr>
+        <td>Foreground</td>
+        <td>#BCD4D4</td>
+        <td>#C8DDDD</td>
+        <td>#DBE9E9</td>
+        <td>#E8F3F3</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><b>Blue</b></td>
+        <td>Dark</td>
+        <td>Base</td>
+        <td>Bright</td>
+        <td>Brighter</td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>#14161A</td>
+        <td>#1D202B</td>
+        <td>#272B3A</td>
+        <td>#303448</td>
+    </tr>
+    <tr>
+        <td>Foreground</td>
+        <td>#BCC0D4</td>
+        <td>#C8CCDD</td>
+        <td>#DBDFE9</td>
+        <td>#E8EBF3</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td><b>Purple</b></td>
+        <td>Dark</td>
+        <td>Base</td>
+        <td>Bright</td>
+        <td>Brighter</td>
+    </tr>
+    <tr>
+        <td>Background</td>
+        <td>#1A141A</td>
+        <td>#2B1D2B</td>
+        <td>#3A273A</td>
+        <td>#483048</td>
+    </tr>
+    <tr>
+        <td>Foreground</td>
+        <td>#D4BCD4</td>
+        <td>#DDC8DD</td>
+        <td>#E9DBE9</td>
+        <td>#F3E8F3</td>
+    </tr>
+</table>
+
+
+## 🔩 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a PR.
 
 
-## License
+## 📃 License
 
 This project is licensed under the MIT License.
