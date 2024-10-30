@@ -50,7 +50,7 @@ require( "lazy" ).setup( {
 
 To apply the theme use:
 ```lua
-require( "velura" ).setup{ tint = "red" }
+require( "velura" ).setup{ }
 vim.cmd.colorscheme( "velura" )
 ```
 
@@ -62,16 +62,16 @@ velura.nvim allows you to customize the color tint for both background and foreg
 
 ### Available Options
 
-- Tint (default: "red"): Change the tint of the fore- and background. Options include:
-    - "red"
-    - "green"
-    - "yellow"
-    - "blue"
-    - "purple"
-    - "cyan"
+Tint (default: "red"): Change the tint of the fore- and background. Options include:
+- "red"
+- "green"
+- "yellow"
+- "blue"
+- "purple"
+- "cyan"
 
 ```lua
-require( "velura" ).setup( { } )
+require( "velura" ).setup( { tint = "blue" } )
 ```
 
 
