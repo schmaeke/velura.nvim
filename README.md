@@ -72,10 +72,12 @@ require( "lualine" ).setup( {
 ## Plugin Support
 
 velura.nvim provides styling for the following plugins:
+- [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [noice](https://github.com/folke/noice.nvim)
+- [notify](https://github.com/rcarriga/nvim-notify)
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
-- [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 
 
 ## Screenshots
