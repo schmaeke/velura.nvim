@@ -74,6 +74,9 @@ Tint (default: "red"): Change the tint of the fore- and background. Options incl
 require( "velura" ).setup( { tint = "blue" } )
 ```
 
+> [!NOTE]
+> The setup function call has to happen before applying the theme.
+
 
 ## 🧩 Plugin Support
 
