@@ -92,7 +92,7 @@ highlights = {
 	Comment = { fg = base.fg0 },
 
 	Constant = { fg = accents.yellow2 },
-	String = { fg = accents.yellow0 },
+	String = { fg = accents.yellow3 },
 	Charachter = { fg = accents.yellow2 },
 	Number = { fg = accents.yellow2 },
 	Boolean = { fg = accents.yellow2 },

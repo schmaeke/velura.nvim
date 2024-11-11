@@ -148,6 +148,15 @@ The theme is based on six accent colors
         <td>#5FB2F0</td>
         <td>#BB6EF1</td>
     </tr>
+    <tr>
+        <td>Pastel</td>
+        <td>#F4A1AB</td>
+        <td>#A8D8B0</td>
+        <td>#F8E1A8</td>
+        <td>#A8D1F4</td>
+        <td>#E0B3E8</td>
+        <td>#B3E3E0</td>
+    </tr>
 </table>
 
 For each set of accent colors there is a set of base colors
