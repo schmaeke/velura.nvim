@@ -168,6 +168,8 @@ For each set of accent colors there is a set of base colors
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
+        <td>Even Brighter</td>
+        <td>Very Brighter</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -196,6 +198,8 @@ For each set of accent colors there is a set of base colors
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
+        <td>Even Brighter</td>
+        <td>Very Brighter</td>
     </tr>
     <tr>
         <td>Dark</td>
@@ -224,6 +228,8 @@ For each set of accent colors there is a set of base colors
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
+        <td>Even Brighter</td>
+        <td>Very Brighter</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -252,8 +258,8 @@ For each set of accent colors there is a set of base colors
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>#3E5A5A</td>
-        <td>#4C6C6C</td>
+        <td>Even Brighter</td>
+        <td>Very Brighter</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -261,6 +267,8 @@ For each set of accent colors there is a set of base colors
         <td>#1D2B2B</td>
         <td>#273A3A</td>
         <td>#304848</td>
+        <td>#3E5A5A</td>
+        <td>#4C6C6C</td>
     </tr>
     <tr>
         <td>Foreground</td>
@@ -280,8 +288,8 @@ For each set of accent colors there is a set of base colors
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>#3E4A5A</td>
-        <td>#4C5A6C</td>
+        <td>Even Brighter</td>
+        <td>Very Brighter</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -289,6 +297,8 @@ For each set of accent colors there is a set of base colors
         <td>#1D202B</td>
         <td>#272B3A</td>
         <td>#303448</td>
+        <td>#3E4A5A</td>
+        <td>#4C5A6C</td>
     </tr>
     <tr>
         <td>Foreground</td>
@@ -308,8 +318,8 @@ For each set of accent colors there is a set of base colors
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>#5A3E5A</td>
-        <td>#6C4A6C</td>
+        <td>Even Brighter</td>
+        <td>Very Brighter</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -317,6 +327,8 @@ For each set of accent colors there is a set of base colors
         <td>#2B1D2B</td>
         <td>#3A273A</td>
         <td>#483048</td>
+        <td>#5A3E5A</td>
+        <td>#6C4A6C</td>
     </tr>
     <tr>
         <td>Foreground</td>
