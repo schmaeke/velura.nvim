@@ -105,37 +105,43 @@ M.accents = {
 	red0 = "#C5233F",
 	red1 = "#DC2C48",
 	red2 = "#E94C66",
-	red3 = "#F4A1AB",
+	red3 = "#EE738D",
+	red4 = "#F4A1AB",
 
 	-- greens
 	green0 = "#29A245",
 	green1 = "#33B34E",
 	green2 = "#42CC60",
-	green3 = "#A8D8B0",
+	green3 = "#75D28D",
+	green4 = "#A8D8B0",
 
 	-- yellows
 	yellow0 = "#E2BB36",
 	yellow1 = "#E9C946",
 	yellow2 = "#F3D870",
-	yellow3 = "#F8E1A8",
+	yellow3 = "#F5DF8E",
+	yellow4 = "#F8E1A8",
 
 	-- blues
 	blue0 = "#2A8AD9",
 	blue1 = "#3C9BE1",
 	blue2 = "#5FB2F0",
-	blue3 = "#A8D1F4",
+	blue3 = "#84C0F2",
+	blue4 = "#A8D1F4",
 
 	-- purples
 	purple0 = "#9D3BD6",
 	purple1 = "#A948E0",
 	purple2 = "#BB6EF1",
-	purple3 = "#E0B3E8",
+	purple3 = "#D098F5",
+	purple4 = "#E0B3E8",
 
 	-- cyan
 	cyan0 = "#58AA9A",
 	cyan1 = "#66B8A7",
 	cyan2 = "#80C9BC",
-	cyan3 = "#B3E3E0",
+	cyan3 = "#99D5CE",
+	cyan4 = "#B3E3E0",
 }
 
 return M

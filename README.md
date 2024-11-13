@@ -149,11 +149,20 @@ The theme is based on six accent colors
         <td>#BB6EF1</td>
     </tr>
     <tr>
+        <td>Bright</td>
+        <td>#EE738D</td>
+        <td>#F5DF8E</td>
+        <td>#75D28D</td>
+        <td>#99D5CE</td>
+        <td>#84C0F2</td>
+        <td>#D098F5</td>
+    </tr>
+    <tr>
         <td>Pastel</td>
         <td>#F4A1AB</td>
-        <td>#E2BB36</td>
-        <td>#29A245</td>
-        <td>#58AA9A</td>
+        <td>#F8E1A8</td>
+        <td>#A8D8B0</td>
+        <td>#B3E3E0</td>
         <td>#A8D1F4</td>
         <td>#E0B3E8</td>
     </tr>
