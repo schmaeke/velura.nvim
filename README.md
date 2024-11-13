@@ -122,7 +122,7 @@ The theme is based on six accent colors
         <td>Purples</td>
     </tr>
     <tr>
-        <td>Dark</td>
+        <td>Very dark</td>
         <td>#C5233F</td>
         <td>#E2BB36</td>
         <td>#29A245</td>
@@ -131,7 +131,7 @@ The theme is based on six accent colors
         <td>#9D3BD6</td>
     </tr>
     <tr>
-        <td>Base</td>
+        <td>Darker</td>
         <td>#DC2C48</td>
         <td>#E9C946</td>
         <td>#33B34E</td>
@@ -140,7 +140,7 @@ The theme is based on six accent colors
         <td>#A948E0</td>
     </tr>
     <tr>
-        <td>Bright</td>
+        <td>Base</td>
         <td>#E94C66</td>
         <td>#F3D870</td>
         <td>#42CC60</td>
@@ -164,12 +164,13 @@ For each set of accent colors there is a set of base colors
 <table>
     <tr>
         <td><b>Red</b></td>
+        <td>Very dark</td>
+        <td>Darker</td>
         <td>Dark</td>
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>Even Brighter</td>
-        <td>Very Bright</td>
+        <td>Very bright</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -179,57 +180,63 @@ For each set of accent colors there is a set of base colors
         <td>#483034</td>
         <td>#5A3E45</td>
         <td>#6C4A58</td>
+        <td>#6C4A58</td>
     </tr>
     <tr>
         <td>Foreground</td>
+        <td>/</td>
+        <td>/</td>
+        <td>/</td>
         <td>#D4BCC0</td>
         <td>#DDC8CC</td>
         <td>#E9DBDF</td>
         <td>#F3E8EB</td>
-        <td>/</td>
-        <td>/</td>
     </tr>
 </table>
 
 <table>
     <tr>
         <td><b>Yellow</b></td>
+        <td>Very dark</td>
+        <td>Darker</td>
         <td>Dark</td>
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>Even Brighter</td>
-        <td>Very Bright</td>
+        <td>Very bright</td>
     </tr>
     <tr>
-        <td>Dark</td>
+        <td>Very dark</td>
         <td>#1A1A14</td>
         <td>#2B2B1D</td>
         <td>#3A3A27</td>
         <td>#484834</td>
         <td>#5A5A45</td>
         <td>#6C6C58</td>
+        <td>#7D7D6B</td>
     </tr>
     <tr>
         <td>Foreground</td>
+        <td>/</td>
+        <td>/</td>
+        <td>/</td>
         <td>#D4D0BC</td>
         <td>#DDDBC8</td>
         <td>#E9E6DB</td>
         <td>#F3F0E8</td>
-        <td>/</td>
-        <td>/</td>
     </tr>
 </table>
 
 <table>
     <tr>
         <td><b>Green</b></td>
+        <td>Very dark</td>
+        <td>Darker</td>
         <td>Dark</td>
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>Even Brighter</td>
-        <td>Very Bright</td>
+        <td>Very bright</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -239,27 +246,30 @@ For each set of accent colors there is a set of base colors
         <td>#304834</td>
         <td>#3E5945</td>
         <td>#4C6B58</td>
+        <td>#5C7C6B</td>
     </tr>
     <tr>
         <td>Foreground</td>
+        <td>/</td>
+        <td>/</td>
+        <td>/</td>
         <td>#BCD4C0</td>
         <td>#C8DDCC</td>
         <td>#DBE9DF</td>
         <td>#E8F3EB</td>
-        <td>/</td>
-        <td>/</td>
     </tr>
 </table>
 
 <table>
     <tr>
         <td><b>Cyan</b></td>
+        <td>Very dark</td>
+        <td>Darker</td>
         <td>Dark</td>
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>Even Brighter</td>
-        <td>Very Bright</td>
+        <td>Very bright</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -269,27 +279,30 @@ For each set of accent colors there is a set of base colors
         <td>#304848</td>
         <td>#3E5A5A</td>
         <td>#4C6C6C</td>
+        <td>#5C7D7D</td>
     </tr>
     <tr>
         <td>Foreground</td>
+        <td>/</td>
+        <td>/</td>
+        <td>/</td>
         <td>#BCD4D4</td>
         <td>#C8DDDD</td>
         <td>#DBE9E9</td>
         <td>#E8F3F3</td>
-        <td>/</td>
-        <td>/</td>
     </tr>
 </table>
 
 <table>
     <tr>
         <td><b>Blue</b></td>
+        <td>Very dark</td>
+        <td>Darker</td>
         <td>Dark</td>
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>Even Brighter</td>
-        <td>Very Bright</td>
+        <td>Very bright</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -299,27 +312,30 @@ For each set of accent colors there is a set of base colors
         <td>#303448</td>
         <td>#3E4A5A</td>
         <td>#4C5A6C</td>
+        <td>#5C6C7D</td>
     </tr>
     <tr>
         <td>Foreground</td>
+        <td>/</td>
+        <td>/</td>
+        <td>/</td>
         <td>#BCC0D4</td>
         <td>#C8CCDD</td>
         <td>#DBDFE9</td>
         <td>#E8EBF3</td>
-        <td>/</td>
-        <td>/</td>
     </tr>
 </table>
 
 <table>
     <tr>
         <td><b>Purple</b></td>
+        <td>Very dark</td>
+        <td>Darker</td>
         <td>Dark</td>
         <td>Base</td>
         <td>Bright</td>
         <td>Brighter</td>
-        <td>Even Brighter</td>
-        <td>Very Bright</td>
+        <td>Very bright</td>
     </tr>
     <tr>
         <td>Background</td>
@@ -329,15 +345,17 @@ For each set of accent colors there is a set of base colors
         <td>#483048</td>
         <td>#5A3E5A</td>
         <td>#6C4A6C</td>
+        <td>#7D5A7D</td>
     </tr>
     <tr>
         <td>Foreground</td>
+        <td>/</td>
+        <td>/</td>
+        <td>/</td>
         <td>#D4BCD4</td>
         <td>#DDC8DD</td>
         <td>#E9DBE9</td>
         <td>#F3E8F3</td>
-        <td>/</td>
-        <td>/</td>
     </tr>
 </table>
 

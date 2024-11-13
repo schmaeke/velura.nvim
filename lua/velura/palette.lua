@@ -12,6 +12,7 @@ M.red = {
 	bg3 = "#483034",
 	bg4 = "#5A3E45",
 	bg5 = "#6C4A58",
+	bg6 = "#7D5A6B",
 
 	fg0 = "#D4BCC0",
 	fg1 = "#DDC8CC",
@@ -27,6 +28,7 @@ M.green = {
 	bg3 = "#304834",
 	bg4 = "#3E5945",
 	bg5 = "#4C6B58",
+	bg6 = "#5C7C6B",
 
 	fg0 = "#BCD4C0",
 	fg1 = "#C8DDCC",
@@ -42,6 +44,7 @@ M.yellow = {
 	bg3 = "#484834",
 	bg4 = "#5A5A45",
 	bg5 = "#6C6C58",
+	bg6 = "#7D7D6B",
 
 	fg0 = "#D4D0BC",
 	fg1 = "#DDDBC8",
@@ -57,6 +60,7 @@ M.blue = {
 	bg3 = "#303448",
 	bg4 = "#3E4A5A",
 	bg5 = "#4C5A6C",
+	bg6 = "#5C6C7D",
 
 	fg0 = "#BCC0D4",
 	fg1 = "#C8CCDD",
@@ -72,6 +76,7 @@ M.purple = {
 	bg3 = "#483048",
 	bg4 = "#5A3E5A",
 	bg5 = "#6C4A6C",
+	bg6 = "#7D5A7D",
 
 	fg0 = "#D4BCD4",
 	fg1 = "#DDC8DD",
@@ -87,6 +92,7 @@ M.cyan = {
 	bg3 = "#304848",
 	bg4 = "#3E5A5A",
 	bg5 = "#4C6C6C",
+	bg6 = "#5C7D7D",
 
 	fg0 = "#BCD4D4",
 	fg1 = "#C8DDDD",
