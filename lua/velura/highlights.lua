@@ -33,7 +33,7 @@ highlights = {
 
 	WildMenu = { fg = base.fg2, bg = base.bg1 },
 
-	LineNr = { fg = base.bg3 },
+	LineNr = { fg = base.bg4 },
 	CursorLineNR = { fg = base.fg0, bg = base.bg1, style = none },
 
 	Folded = { fg = base.fg2, bg = base.bg1 },
@@ -52,19 +52,19 @@ highlights = {
 
 	NormalFloat = { bg = base.bg1 },
 
-	Visual = { bg = base.bg1 },
-	VisualNOS = { bg = base.bg1 },
+	Visual = { bg = base.bg3 },
+	VisualNOS = { bg = base.bg3 },
 
 	WarningMsg = { fg = accents.red1, bg = base.bg0 },
 
-	DiffAdd = { fg = accents.green0, bg = base.bg0 },
-	DiffChange = { fg = accents.yellow0, bg = base.bg0 },
-	DiffDelete = { fg = accents.red0, bg = base.bg0 },
+	DiffAdd = { fg = accents.green2, bg = base.bg0 },
+	DiffChange = { fg = accents.yellow2, bg = base.bg0 },
+	DiffDelete = { fg = accents.red2, bg = base.bg0 },
 
 	QuickFixLine = { bg = base.bg1 },
 
 	MatchWord = { style = "underline" },
-	MatchParen = { fg = base.fg3, bg = accents.bg0, style = "underline" },
+	MatchParen = { fg = base.fg3, bg = accents.bg0, style = none },
 	MatchWordCur = { style = "underline" },
 	MatchParenCur = { style = "underline" },
 
@@ -79,7 +79,7 @@ highlights = {
 	SpecialKey = { fg = base.fg0, style = "bold" },
 	Title = { fg = base.fg0, style = "bold" },
 	ErrorMsg = { fg = accents.red2, bg = base.bg0, style = "bold" },
-	CurSearch = { fg = base.fg0, bg = accents.blue0, },
+	CurSearch = { fg = base.fg0, bg = base.bg5 , },
 	Search = { fg = base.fg0, bg = base.bg3 },
 	IncSearch = { fg = base.fg0, bg = base.bg3 },
 	Substitute = { fg = base.bg0, bg = base.bg3 },
@@ -89,7 +89,7 @@ highlights = {
 	NonText = { fg = base.bg3 },
 
 	-- syntax highlighting
-	Comment = { fg = base.fg0 },
+	Comment = { fg = base.bg5 },
 
 	Constant = { fg = accents.yellow2 },
 	String = { fg = accents.yellow3 },
