@@ -115,7 +115,7 @@ highlights = {
 	Macro = { fg = accents.blue1 },
 	PreCondit = { fg = accents.blue1 },
 
-	Type = { fg = accents.cyan2, style = none },
+	Type = { fg = accents.purple3, style = none },
 	StorageClass = { fg = accents.cyan2 },
 	Structure = { fg = accents.cyan2 },
 	Typedef = { fg = accents.cyan2 },
