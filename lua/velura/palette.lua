@@ -102,46 +102,52 @@ M.cyan = {
 
 M.accents = {
 	-- reds
-	red0 = "#C5233F",
-	red1 = "#DC2C48",
-	red2 = "#E94C66",
-	red3 = "#EE738D",
-	red4 = "#F4A1AB",
+	red0 = "#A11E35",
+	red1 = "#C5233F",
+	red2 = "#DC2C48",
+	red3 = "#E94C66",
+	red4 = "#EE738D",
+	red5 = "#F4A1AB",
 
 	-- greens
-	green0 = "#29A245",
-	green1 = "#33B34E",
-	green2 = "#42CC60",
-	green3 = "#75D28D",
-	green4 = "#A8D8B0",
+	green0 = "#22863A",
+	green1 = "#29A245",
+	green2 = "#33B34E",
+	green3 = "#42CC60",
+	green4 = "#75D28D",
+	green5 = "#A8D8B0",
 
 	-- yellows
-	yellow0 = "#E2BB36",
-	yellow1 = "#E9C946",
-	yellow2 = "#F3D870",
-	yellow3 = "#F5DF8E",
-	yellow4 = "#F8E1A8",
+	yellow0 = "#B3962B",
+	yellow1 = "#E2BB36",
+	yellow2 = "#E9C946",
+	yellow3 = "#F3D870",
+	yellow4 = "#F5DF8E",
+	yellow5 = "#F8E1A8",
 
 	-- blues
-	blue0 = "#2A8AD9",
-	blue1 = "#3C9BE1",
-	blue2 = "#5FB2F0",
-	blue3 = "#84C0F2",
-	blue4 = "#A8D1F4",
+	blue0 = "#2272B3",
+	blue1 = "#2A8AD9",
+	blue2 = "#3C9BE1",
+	blue3 = "#5FB2F0",
+	blue4 = "#84C0F2",
+	blue5 = "#A8D1F4",
 
 	-- purples
-	purple0 = "#9D3BD6",
-	purple1 = "#A948E0",
-	purple2 = "#BB6EF1",
-	purple3 = "#D098F5",
-	purple4 = "#E0B3E8",
+	purple0 = "#812FB4",
+	purple1 = "#9D3BD6",
+	purple2 = "#A948E0",
+	purple3 = "#BB6EF1",
+	purple4 = "#D098F5",
+	purple5 = "#E0B3E8",
 
 	-- cyan
-	cyan0 = "#58AA9A",
-	cyan1 = "#66B8A7",
-	cyan2 = "#80C9BC",
-	cyan3 = "#99D5CE",
-	cyan4 = "#B3E3E0",
+	cyan0 = "#478B80",
+	cyan1 = "#58AA9A",
+	cyan2 = "#66B8A7",
+	cyan3 = "#80C9BC",
+	cyan4 = "#99D5CE",
+	cyan5 = "#B3E3E0",
 }
 
 return M

@@ -122,7 +122,16 @@ The theme is based on six accent colors
         <td>Purples</td>
     </tr>
     <tr>
-        <td>Very dark</td>
+        <td>Darker</td>
+        <td>#A11E35</td>
+        <td>#B3962B</td>
+        <td>#22863A</td>
+        <td>#478B80</td>
+        <td>#2272B3</td>
+        <td>#812FB4</td>
+    </tr>
+    <tr>
+        <td>Dark</td>
         <td>#C5233F</td>
         <td>#E2BB36</td>
         <td>#29A245</td>
@@ -131,7 +140,7 @@ The theme is based on six accent colors
         <td>#9D3BD6</td>
     </tr>
     <tr>
-        <td>Darker</td>
+        <td>Base</td>
         <td>#DC2C48</td>
         <td>#E9C946</td>
         <td>#33B34E</td>
@@ -140,7 +149,7 @@ The theme is based on six accent colors
         <td>#A948E0</td>
     </tr>
     <tr>
-        <td>Base</td>
+        <td>Bright</td>
         <td>#E94C66</td>
         <td>#F3D870</td>
         <td>#42CC60</td>
@@ -149,7 +158,7 @@ The theme is based on six accent colors
         <td>#BB6EF1</td>
     </tr>
     <tr>
-        <td>Bright</td>
+        <td>Brighter</td>
         <td>#EE738D</td>
         <td>#F5DF8E</td>
         <td>#75D28D</td>
