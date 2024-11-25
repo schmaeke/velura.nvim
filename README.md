@@ -122,6 +122,15 @@ The theme is based on six accent colors
         <td>Purples</td>
     </tr>
     <tr>
+        <td>Very dark</td>
+        <td>#7F172B</td>
+        <td>#8F7422</td>
+        <td>#1A6C2E</td>
+        <td>#356A63</td>
+        <td>#1A5A91</td>
+        <td>#641F8A</td>
+    </tr>
+    <tr>
         <td>Darker</td>
         <td>#A11E35</td>
         <td>#B3962B</td>
