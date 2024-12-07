@@ -20,8 +20,8 @@ highlights = {
 	DiagnosticUnderlineWarn = { sp = accents.yellow2, style = "undercurl" },
 	DiagnosticInfo = { fg = accents.blue2 },
 	DiagnosticUnderlineInfo = { sp = accents.blue2, style = "undercurl" },
-	DiagnosticHint = { fg = base.fg0 },
-	DiagnosticUnderlineHint = { sp = base.fg0, style = "undercurl" },
+	DiagnosticHint = { fg = accents.cyan2 },
+	DiagnosticUnderlineHint = { sp = accents.cyan2, style = "undercurl" },
 
 	NormalNC = { fg = base.fg2, bg = base.bg0 },
 
