@@ -1,4 +1,6 @@
-<h1 align = "center">🏜 velura.nvim</h1>
+<p align = "center">
+    <img src = "resources/logo/logo.svg" alt = "feris logo" width = "400px">
+</p>
 
 **velura.nvim** is a dark [Neovim](https://neovim.io/) color scheme written in Lua, featuring customizable tints and bold accents. This theme provides a consistent look with high contrast for good readability.
 

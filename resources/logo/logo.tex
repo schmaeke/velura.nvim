@@ -1,0 +1,91 @@
+\documentclass[margin = 1mm]{standalone}
+
+\usepackage{paratype}
+\usepackage{CharisSIL}
+\usepackage{tikz}
+
+\newcommand{\periodicElement}[6]{%
+	\draw[#5, fill = #6, line width = 0.5mm] (-1.0cm, -1.0cm) rectangle ++(2.0cm, 2.0cm);
+	\node[#5] at (0cm, 0cm) {\Huge#2};
+	\node[#5, above] at (0cm, -1.0cm) {\sffamily\small#3};
+	\node[#5, below right] at (-1.0cm, 1.0cm) {\sffamily\small#1};
+	\node[#5, below left] at (1.0cm, 1.0cm) {\sffamily\small#4};
+}%
+
+\newcommand{\electron}{%
+	\draw[fg, fill = purple1, line width = 0.5mm] (0cm, 0cm) circle (0.65cm);%
+	\node[fg, inner sep = 0mm] (electron) at (0cm, 0cm) {\Huge e};%
+	\node[fg, inner sep = 0mm] at (electron.north east) {\Huge -};%
+}%
+
+\definecolor{red0}{HTML}{7F172B}
+\definecolor{red1}{HTML}{A11E35}
+\definecolor{red2}{HTML}{C5233F}
+\definecolor{red3}{HTML}{DC2C48}
+\definecolor{red4}{HTML}{E94C66}
+\definecolor{red5}{HTML}{EE738D}
+\definecolor{red6}{HTML}{F4A1AB}
+
+\definecolor{yellow0}{HTML}{8F7422}
+\definecolor{yellow1}{HTML}{B3962B}
+\definecolor{yellow2}{HTML}{E2BB36}
+\definecolor{yellow3}{HTML}{E9C946}
+\definecolor{yellow4}{HTML}{F3D870}
+\definecolor{yellow5}{HTML}{F5DF8E}
+\definecolor{yellow6}{HTML}{F8E1A8}
+
+\definecolor{green0}{HTML}{1A6C2E}
+\definecolor{green1}{HTML}{22863A}
+\definecolor{green2}{HTML}{29A245}
+\definecolor{green3}{HTML}{33B34E}
+\definecolor{green4}{HTML}{42CC60}
+\definecolor{green5}{HTML}{75D28D}
+\definecolor{green6}{HTML}{A8D8B0}
+
+\definecolor{cyan0}{HTML}{356A63}
+\definecolor{cyan1}{HTML}{478B80}
+\definecolor{cyan2}{HTML}{58AA9A}
+\definecolor{cyan3}{HTML}{66B8A7}
+\definecolor{cyan4}{HTML}{80C9BC}
+\definecolor{cyan5}{HTML}{99D5CE}
+\definecolor{cyan6}{HTML}{B3E3E0}
+
+\definecolor{blue0}{HTML}{1A5A91}
+\definecolor{blue1}{HTML}{2272B3}
+\definecolor{blue2}{HTML}{2A8AD9}
+\definecolor{blue3}{HTML}{3C9BE1}
+\definecolor{blue4}{HTML}{5FB2F0}
+\definecolor{blue5}{HTML}{84C0F2}
+\definecolor{blue6}{HTML}{A8D1F4}
+
+\definecolor{purple0}{HTML}{641F8A}
+\definecolor{purple1}{HTML}{812FB4}
+\definecolor{purple2}{HTML}{9D3BD6}
+\definecolor{purple3}{HTML}{A948E0}
+\definecolor{purple4}{HTML}{BB6EF1}
+\definecolor{purple5}{HTML}{D098F5}
+\definecolor{purple6}{HTML}{E0B3E8}
+
+\definecolor{fg}{HTML}{DBDFE9}
+\definecolor{bg}{HTML}{14161A}
+
+\begin{document}
+	\pagecolor{bg}%
+	\begin{tikzpicture}%
+		\begin{scope}[shift = {(-1.9cm, 0cm)}]
+			\periodicElement{23}{V}{Vanadium}{50.942}{fg}{red1}%
+		\end{scope}
+
+		\begin{scope}[shift = {(0cm, 0cm)}]
+			\electron
+		\end{scope}
+
+		\begin{scope}[shift = {(1.9cm, 0cm)}]
+			\periodicElement{71}{Lu}{Lutetium}{174.97}{fg}{green1}%
+		\end{scope}
+
+		\begin{scope}[shift = {(4.15cm, 0cm)}]
+			\periodicElement{88}{Ra}{Radium}{(226)}{fg}{blue1}%
+		\end{scope}
+	\end{tikzpicture}%
+\end{document}
