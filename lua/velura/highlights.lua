@@ -89,7 +89,7 @@ highlights = {
 	NonText = { fg = base.bg3 },
 
 	-- syntax highlighting
-	Comment = { fg = base.bg5 },
+	Comment = { fg = base.fg0 },
 
 	Constant = { fg = accents.yellow4 },
 	String = { fg = accents.yellow5 },

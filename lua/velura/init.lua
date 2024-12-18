@@ -28,7 +28,9 @@ function M.apply_theme( )
 	vim.g.colors_name = "velura"
 
 	-- load highlights
+	local dropbar = require( "velura.dropbar" )
 	local gitsigns = require( "velura.gitsigns" )
+	local headlines = require( "velura.headlines" )
 	local hightlights = require( "velura.highlights" )
 	local noice = require( "velura.noice" )
 	local notify = require( "velura.notify" )
@@ -37,7 +39,9 @@ function M.apply_theme( )
 
 	-- create groups
 	local master_groups = {
+        dropbar,
 		gitsigns,
+        headlines,
 		highlights,
 		noice,
 		notify,

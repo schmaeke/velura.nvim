@@ -102,7 +102,7 @@ M.cyan = {
 
 M.accents = {
 	-- reds
-	red0 = "#F4A1AB",
+	red0 = "#7F172B",
 	red1 = "#A11E35",
 	red2 = "#C5233F",
 	red3 = "#DC2C48",
