@@ -1,8 +1,8 @@
 <p align = "center">
-    <img src = "resources/logo/logo.svg" alt = "feris logo" width = "400px">
+    <img src = "resources/logo/velura_rainbow.svg" alt = "feris logo" width = "50%">
 </p>
 
-**velura.nvim** is a dark [Neovim](https://neovim.io/) color scheme written in Lua, featuring customizable tints and bold accents. This theme provides a consistent look with high contrast for good readability.
+**velura.nvim** is a dark [Neovim](https://neovim.io/) color scheme written in Lua, featuring customizable tints and bold accents. This theme provides a consistent look with relatively high contrast for good readability.
 
 <table>
     <tr>
@@ -31,7 +31,7 @@
     </tr>
 </table>
 
-*The font used in the screenshots is [Recursive Mono Linear](https://github.com/arrowtype/recursive).*
+The font used in the screenshots is *[Recursive Mono Linear](https://github.com/arrowtype/recursive).*
 
 
 ## 🧰 Features
@@ -45,35 +45,31 @@
 
 Add the following to your `lazy.nvim` configuration:
 ```lua
-require( "lazy" ).setup( {
-    { "schmaeke/velura.nvim" },
+require("lazy").setup({
+    {"schmaeke/velura.nvim"},
 })
 ```
 
-To apply the theme use:
+To apply the theme first call the setup function and apply the theme:
 ```lua
-require( "velura" ).setup{ }
-vim.cmd.colorscheme( "velura" )
+require("velura").setup{}
+vim.cmd.colorscheme("velura")
 ```
 
 
 ## ⚙️ Configuration
 
 velura.nvim allows you to customize the color tint for both background and foreground, so you can set the overall aesthetic.
-
-
-### Available Options
-
-Tint (default: "red"): Change the tint of the fore- and background. Options include:
+The following values are possible:
 - "red"
 - "green"
 - "yellow"
 - "blue"
 - "purple"
 - "cyan"
-
+To set one of them pass the following to the setup function:
 ```lua
-require( "velura" ).setup( { tint = "blue" } )
+require("velura").setup({tint = "blue"})
 ```
 
 > [!NOTE]
@@ -83,7 +79,9 @@ require( "velura" ).setup( { tint = "blue" } )
 ## 🧩 Plugin Support
 
 velura.nvim provides styling for the following plugins:
+- [dropbar](https://github.com/Bekaboo/dropbar.nvim)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
+- [headlines](https://github.com/lukas-reineke/headlines.nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [noice](https://github.com/folke/noice.nvim)
 - [notify](https://github.com/rcarriga/nvim-notify)
@@ -96,9 +94,21 @@ velura.nvim provides styling for the following plugins:
 velura.nvim includes a matching theme for lualine.nvim. 
 Add this to your Lualine configuration:
 ```lua
-require( "lualine" ).setup( {
-    options = { theme = "velura" }
-} )
+require("lualine").setup({
+    options = {theme = "velura"}
+})
+```
+
+
+### Usage with [headlines](https://github.com/lukas-reineke/headlines.nvim)
+
+In order for the headlines to be highlighted correctly, the following highlight groups have to be set:
+```lua
+require("headlines").setup {
+    markdown = {
+        headline_highlights = {"Headline1", "Headline2", "Headline3", "Headline4", "Headline5", "Headline6"},
+    },
+}
 ```
 
 
