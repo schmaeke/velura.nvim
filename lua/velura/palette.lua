@@ -4,6 +4,25 @@ local M = { }
 
 M.none = "NONE"
 
+-- NEUTRAL TINT
+M.neutral = {
+	bg0 = "#141414",
+	bg1 = "#1D1D1D",
+	bg2 = "#272727",
+	bg3 = "#303030",
+	bg4 = "#3E3E3E",
+	bg5 = "#4C4C4C",
+	bg6 = "#5C5C5C",
+
+	fg0 = "#F3F3F3",
+	fg1 = "#E9E9E9",
+	fg2 = "#DDDDDD",
+	fg3 = "#D4D4D4",
+	fg4 = "#C9C9C9",
+	fg5 = "#BFBFBF",
+	fg6 = "#B5B5B5",
+}
+
 -- RED TINT
 M.red = {
 	bg0 = "#1A1416",
@@ -14,26 +33,13 @@ M.red = {
 	bg5 = "#6C4A58",
 	bg6 = "#7D5A6B",
 
-	fg0 = "#D4BCC0",
-	fg1 = "#DDC8CC",
-	fg2 = "#E9DBDF",
-	fg3 = "#F3E8EB",
-}
-
--- GREEN TINT
-M.green = {
-	bg0 = "#141A16",
-	bg1 = "#1D2B20",
-	bg2 = "#273A2B",
-	bg3 = "#304834",
-	bg4 = "#3E5945",
-	bg5 = "#4C6B58",
-	bg6 = "#5C7C6B",
-
-	fg0 = "#BCD4C0",
-	fg1 = "#C8DDCC",
-	fg2 = "#DBE9DF",
-	fg3 = "#E8F3EB",
+	fg0 = "#F3E8EB",
+	fg1 = "#E9DBDF",
+	fg2 = "#DDC8CC",
+	fg3 = "#D4BCC0",
+  fg4 = "#C9AEB3",
+	fg5 = "#BF9FA8",
+	fg6 = "#B5919C",
 }
 
 -- YELLOW TINT
@@ -46,42 +52,32 @@ M.yellow = {
 	bg5 = "#6C6C58",
 	bg6 = "#7D7D6B",
 
-	fg0 = "#D4D0BC",
-	fg1 = "#DDDBC8",
-	fg2 = "#E9E6DB",
-	fg3 = "#F3F0E8",
+	fg0 = "#F3F0E8",
+	fg1 = "#E9E6DB",
+	fg2 = "#DDDBC8",
+	fg3 = "#D4D0BC",
+	fg4 = "#C9C4B0",
+	fg5 = "#BFB9A3",
+	fg6 = "#B5AE97",
 }
 
--- BLUE TINT
-M.blue = {
-	bg0 = "#14161A",
-	bg1 = "#1D202B",
-	bg2 = "#272B3A",
-	bg3 = "#303448",
-	bg4 = "#3E4A5A",
-	bg5 = "#4C5A6C",
-	bg6 = "#5C6C7D",
+-- GREEN TINT
+M.green = {
+	bg0 = "#141A16",
+	bg1 = "#1D2B20",
+	bg2 = "#273A2B",
+	bg3 = "#304834",
+	bg4 = "#3E5945",
+	bg5 = "#4C6B58",
+	bg6 = "#5C7C6B",
 
-	fg0 = "#BCC0D4",
-	fg1 = "#C8CCDD",
-	fg2 = "#DBDFE9",
-	fg3 = "#E8EBF3",
-}
-
--- PURPLE TINT
-M.purple = {
-	bg0 = "#1A141A",
-	bg1 = "#2B1D2B",
-	bg2 = "#3A273A",
-	bg3 = "#483048",
-	bg4 = "#5A3E5A",
-	bg5 = "#6C4A6C",
-	bg6 = "#7D5A7D",
-
-	fg0 = "#D4BCD4",
-	fg1 = "#DDC8DD",
-	fg2 = "#E9DBE9",
-	fg3 = "#F3E8F3",
+	fg0 = "#E8F3EB",
+	fg1 = "#DBE9DF",
+	fg2 = "#C8DDCC",
+	fg3 = "#BCD4C0",
+  fg4 = "#B0C9B3",
+	fg5 = "#A3BFA8",
+	fg6 = "#97B59C",
 }
 
 -- CYAN TINT
@@ -94,10 +90,51 @@ M.cyan = {
 	bg5 = "#4C6C6C",
 	bg6 = "#5C7D7D",
 
-	fg0 = "#BCD4D4",
-	fg1 = "#C8DDDD",
-	fg2 = "#DBE9E9",
-	fg3 = "#E8F3F3",
+	fg0 = "#E8F3F3",
+	fg1 = "#DBE9E9",
+	fg2 = "#C8DDDD",
+	fg3 = "#BCD4D4",
+  fg4 = "#B0C9C9",
+	fg5 = "#A3BFBF",
+	fg6 = "#97B5B5",
+}
+
+-- BLUE TINT
+M.blue = {
+	bg0 = "#14161A",
+	bg1 = "#1D202B",
+	bg2 = "#272B3A",
+	bg3 = "#303448",
+	bg4 = "#3E4A5A",
+	bg5 = "#4C5A6C",
+	bg6 = "#5C6C7D",
+
+	fg0 = "#E8EBF3",
+	fg1 = "#DBDFE9",
+	fg2 = "#C8CCDD",
+	fg3 = "#BCC0D4",
+	fg4 = "#B0B3C9",
+	fg5 = "#A3A8BF",
+	fg6 = "#979CB5",
+}
+
+-- PURPLE TINT
+M.purple = {
+	bg0 = "#1A141A",
+	bg1 = "#2B1D2B",
+	bg2 = "#3A273A",
+	bg3 = "#483048",
+	bg4 = "#5A3E5A",
+	bg5 = "#6C4A6C",
+	bg6 = "#7D5A7D",
+
+	fg0 = "#F3E8F3",
+	fg1 = "#E9DBE9",
+	fg2 = "#DDC8DD",
+	fg3 = "#D4BCD4",
+	fg4 = "#C9B0C9",
+	fg5 = "#BFA3BF",
+	fg6 = "#B597B5",
 }
 
 M.accents = {

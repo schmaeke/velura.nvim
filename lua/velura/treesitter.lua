@@ -3,13 +3,13 @@
 treesitter = {
 
     -- language independent
-    ["@variable"] = {fg = base.fg2},
+    ["@variable"] = {fg = base.fg1},
 
     -- markdown
-    ["@markup.raw.block.markdown"] = {fg = base.fg0},
+    ["@markup.raw.block.markdown"] = {fg = base.bg6},
 
     -- julia
-    ["@string.documentation.julia"] = {fg = base.fg0},
+    ["@string.documentation.julia"] = {fg = base.bg6},
 }
 
 return treesitter

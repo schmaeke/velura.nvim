@@ -7,7 +7,7 @@ local M = { }
 
 function M.setup( options )
 	options = options or { }
-	M.tint = options.tint or "red" -- "red" is the default tint
+	M.tint = options.tint or "neutral" -- "red" is the default tint
 end
 
 function M.apply_theme( )

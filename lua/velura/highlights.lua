@@ -1,18 +1,18 @@
 -- general colors of neovim
 
 highlights = {
-	Normal = { fg = base.fg2, bg = base.bg0 },
+	Normal = { fg = base.fg1, bg = base.bg0 },
 
 	SignColumn = { bg = base.bg0 },
 
-	MsgArea = { fg = base.fg2, bg = base.bg0 },
-	ModeMsg = { fg = base.fg2, bg = base.bg0 },
-	MsgSeparator = { fg = base.fg2, bg = base.bg0 },
+	MsgArea = { fg = base.fg1, bg = base.bg0 },
+	ModeMsg = { fg = base.fg1, bg = base.bg0 },
+	MsgSeparator = { fg = base.fg1, bg = base.bg0 },
 
 	SpellBad = { fg = accents.red4, style = "underline" },
 	SpellCab = { fg = accents.yellow4, style = "underline" },
-	SpellLocal = { fg = base.fg2, style = "underline" },
-	SpellRare = { fg = base.fg2, style = "underline" },
+	SpellLocal = { fg = base.fg1, style = "underline" },
+	SpellRare = { fg = base.fg1, style = "underline" },
 
 	DiagnosticError = { fg = accents.red2 },
 	DiagnosticUnderlineError = { sp = accents.red2, style = "undercurl" },
@@ -23,23 +23,23 @@ highlights = {
 	DiagnosticHint = { fg = accents.cyan2 },
 	DiagnosticUnderlineHint = { sp = accents.cyan2, style = "undercurl" },
 
-	NormalNC = { fg = base.fg2, bg = base.bg0 },
+	NormalNC = { fg = base.fg1, bg = base.bg0 },
 
-	Pmenu = { fg = base.fg2, bg = base.bg1 },
+	Pmenu = { fg = base.fg1, bg = base.bg1 },
 	PmenuSel = { fg = base.bg0, bg = accents.blue4 },
 	PmenuSbar = { bg = base.bg1 },
 	PmenuThumb = { bg = base.bg1 },
 
 
-	WildMenu = { fg = base.fg2, bg = base.bg1 },
+	WildMenu = { fg = base.fg1, bg = base.bg1 },
 
 	LineNr = { fg = base.bg4 },
-	CursorLineNR = { fg = base.fg0, bg = base.bg1, style = none },
+	CursorLineNR = { fg = base.fg3, bg = base.bg1, style = none },
 
-	Folded = { fg = base.fg2, bg = base.bg1 },
-	FoldColumn = { fg = base.fg2, bg = base.bg1 },
+	Folded = { fg = base.fg1, bg = base.bg1 },
+	FoldColumn = { fg = base.fg1, bg = base.bg1 },
 
-	FloatBorder = { fg = base.fg1, bg = base.bg1 },
+	FloatBorder = { fg = base.fg2, bg = base.bg1 },
 
 	Whitespace = { fg = base.bg3 },
 
@@ -64,32 +64,32 @@ highlights = {
 	QuickFixLine = { bg = base.bg1 },
 
 	MatchWord = { style = "underline" },
-	MatchParen = { fg = base.fg3, bg = base.bg0, style = none },
+	MatchParen = { fg = base.fg0, bg = base.bg0, style = none },
 	MatchWordCur = { style = "underline" },
 	MatchParenCur = { style = "underline" },
 
-	Cursor = { fg = base.bg0, bg = base.fg0 },
-	lCursor = { fg = base.bg0, bg = base.fg0 },
-	CursorIM = { fg = base.bg0, bg = base.fg0 },
-	TermCursor = { fg = base.bg0, bg = base.fg0 },
-	TermCursorNC = { fg = base.bg0, bg = base.fg0 },
+	Cursor = { fg = base.bg0, bg = base.fg3 },
+	lCursor = { fg = base.bg0, bg = base.fg3 },
+	CursorIM = { fg = base.bg0, bg = base.fg3 },
+	TermCursor = { fg = base.bg0, bg = base.fg3 },
+	TermCursorNC = { fg = base.bg0, bg = base.fg3 },
 
-	Conceal = { fg = base.fg0 },
-	Directory = { fg = base.fg0 },
-	SpecialKey = { fg = base.fg0, style = "bold" },
-	Title = { fg = base.fg0, style = "bold" },
+	Conceal = { fg = base.fg3 },
+	Directory = { fg = base.fg3 },
+	SpecialKey = { fg = base.fg3, style = "bold" },
+	Title = { fg = base.fg3, style = "bold" },
 	ErrorMsg = { fg = accents.red4, bg = base.bg0, style = "bold" },
-	CurSearch = { fg = base.fg0, bg = base.bg5 , },
-	Search = { fg = base.fg0, bg = base.bg3 },
-	IncSearch = { fg = base.fg0, bg = base.bg3 },
+	CurSearch = { fg = base.fg3, bg = base.bg5 , },
+	Search = { fg = base.fg3, bg = base.bg3 },
+	IncSearch = { fg = base.fg3, bg = base.bg3 },
 	Substitute = { fg = base.bg0, bg = base.bg3 },
-	MoreMsg = { fg = base.fg2 },
-	Question = { fg = base.fg2 },
+	MoreMsg = { fg = base.fg1 },
+	Question = { fg = base.fg1 },
 	EndOfBuffer = { fg = base.bg0 },
 	NonText = { fg = base.bg3 },
 
 	-- syntax highlighting
-	Comment = { fg = base.fg0 },
+	Comment = { fg = base.bg6 },
 
 	Constant = { fg = accents.yellow4 },
 	String = { fg = accents.yellow5 },
@@ -98,14 +98,14 @@ highlights = {
 	Boolean = { fg = accents.yellow4 },
 	Float = { fg = accents.yellow4 },
 
-	Identifier = { fg = base.fg2 },
+	Identifier = { fg = base.fg1 },
 	Function = { fg = accents.green4 },
 
 	Statement = { fg = accents.red4 },
 	Conditional = { fg = accents.red4 },
 	Repeat = { fg = accents.red4 },
 	Label = { fg = accents.red4 },
-	Operator = { fg = base.fg0 },
+	Operator = { fg = base.fg3 },
 	Keyword = { fg = accents.red4, style = none },
 	Exception = { fg = accents.red4 },
 
@@ -123,7 +123,7 @@ highlights = {
 	Special = { fg = accents.yellow4 },
 	SpecialChar = { fg = accents.yellow4 },
 	Tag = { fg = accents.yellow4 },
-	Delimiter = { fg = base.fg0 },
+	Delimiter = { fg = base.fg3 },
 	SpecialComment = { fg = accents.yellow4 },
 	Debug = { fg = accents.red4 },
 
@@ -131,12 +131,12 @@ highlights = {
 	Bold = { style = "bold" },
 	Italic = { style = "italic" },
 	Ignore = { fg = base.bg0, bg = base.bg0 },
-	Todo = { fg = base.fg3, bg = base.bg0 },
+	Todo = { fg = base.fg0, bg = base.bg0 },
 	Error = { fg = accents.red4, bg = base.bg0 },
 
-	TabLine = { fg = base.fg2, bg = base.bg1 },
-	TabLineSel = { fg = base.fg2, bg = base.bg2 },
-	TabLineFill = { fg = base.fg2, bg = base.bg0 },
+	TabLine = { fg = base.fg1, bg = base.bg1 },
+	TabLineSel = { fg = base.fg1, bg = base.bg2 },
+	TabLineFill = { fg = base.fg1, bg = base.bg0 },
 }
 
 return highlights

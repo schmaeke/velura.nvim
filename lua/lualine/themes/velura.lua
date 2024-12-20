@@ -6,7 +6,7 @@ local accents = palette.accents
 
 return {
 	normal = {
-		a = { bg = base.bg1, fg = base.bg4, gui = "bold" },
+		a = { bg = base.bg1, fg = base.fg2},
 		b = { bg = base.bg1, fg = base.fg2 },
 		c = { bg = base.bg1, fg = base.fg2 },
 		x = { bg = base.bg1, fg = base.fg2 },
@@ -15,7 +15,7 @@ return {
 	},
 
 	insert = {
-		a = { bg = base.bg1, fg = accents.yellow3, gui = "bold" },
+		a = { bg = base.bg1, fg = accents.green3},
 		b = { bg = base.bg1, fg = base.fg2 },
 		c = { bg = base.bg1, fg = base.fg2 },
 		x = { bg = base.bg1, fg = base.fg2 },
@@ -24,7 +24,7 @@ return {
 	},
 
 	visual = {
-		a = { bg = base.bg1, fg = accents.blue3, style = "bold" },
+		a = { bg = base.bg1, fg = accents.blue3},
 		b = { bg = base.bg1, fg = base.fg2 },
 		c = { bg = base.bg1, fg = base.fg2 },
 		x = { bg = base.bg1, fg = base.fg2 },
@@ -33,7 +33,7 @@ return {
 	},
 
 	replace = {
-		a = { bg = base.bg1, fg = accents.green3, style = "bold" },
+		a = { bg = base.bg1, fg = accents.yellow3},
 		b = { bg = base.bg1, fg = base.fg2 },
 		c = { bg = base.bg1, fg = base.fg2 },
 		x = { bg = base.bg1, fg = base.fg2 },
@@ -42,7 +42,7 @@ return {
 	},
 
 	command = {
-		a = { bg = base.bg1, fg = accents.red3, style = "bold" },
+		a = { bg = base.bg1, fg = accents.red3},
 		b = { bg = base.bg1, fg = base.fg2 },
 		c = { bg = base.bg1, fg = base.fg2 },
 		x = { bg = base.bg1, fg = base.fg2 },
@@ -51,7 +51,7 @@ return {
 	},
 
 	inactive = {
-		a = { bg = base.bg1, fg = base.fg2, style = "bold" },
+		a = { bg = base.bg1, fg = base.fg2},
 		b = { bg = base.bg1, fg = base.fg2 },
 		c = { bg = base.bg1, fg = base.fg2 },
 		x = { bg = base.bg1, fg = base.fg2 },
